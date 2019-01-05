@@ -1,1 +1,1 @@
-web: gunicorn -b :$PORT deploy:app
+web: gunicorn deploy:app
